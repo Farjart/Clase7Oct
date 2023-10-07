@@ -1,0 +1,17 @@
+section{
+    width: 300px;
+}
+
+.container__main{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.one{
+    width: 500px;
+}
+
+.two{
+    width: 500px;
+}

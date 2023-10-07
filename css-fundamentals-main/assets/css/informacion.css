@@ -1,0 +1,38 @@
+.information {
+  display: flex;
+  max-width: 1310px;
+  margin: auto;
+  margin-top: 80px;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.information__image {
+  width: 500px;
+}
+
+.information__description {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media (width <= 480px) {
+  .information {
+    display: block;
+    text-align: center;
+  }
+
+  .information__description {
+    padding: 20px;
+    line-height: 20px;
+    background-color: #cc4e00cf;
+    border-radius: 15px;
+    color: #FFF;
+    margin-inline: 20px;
+  }
+
+  .information__image {
+    width: 300px;
+  }
+}
